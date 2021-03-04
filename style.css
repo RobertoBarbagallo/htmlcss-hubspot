@@ -12,7 +12,8 @@
 /* Left */
 .nav-first{
     width: 100%;
-    height: 300px;
+    background-color: #F4F9FD;
+
 }
 
 #nav-language{
@@ -20,21 +21,48 @@
     margin: 20px 0px;
     padding-right: 20px;
     border-right: 1px solid black;
+
 }
 
 #contact{
     text-decoration: none;
     padding-left: 20px;
     color: black;
+    display: inline-block
+}
+
+#nav-language, #contact{
+    vertical-align: middle;
+    font-size: 20px;
 }
 
 /* Right */
 
+.f-right{
+    padding: 15px;
+}
+
+a.search{
+    color: black;
+    text-decoration: none
+    
+}
 
 
+.f-right .search, button{
+    margin-right: 20px;
+    vertical-align: middle;
+}
 
+#login-btn, .Get-one{
+    padding: 10px; 
+}
 
-
+#login-btn{
+    border: 1px solid #FE7759;
+    color: #FE7759;
+    background-color: transparent;
+}
 
 /* Useful classes */
 
@@ -43,3 +71,24 @@
     margin: auto;
    
 }
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.f-right{
+    float: right;
+}
+
+button{
+    border-radius: 8px;
+}
+
+.orange-btn{
+    background-color: #FE7759;
+    border: none;
+    color: white;
+}
+
