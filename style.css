@@ -92,11 +92,15 @@ a.search{
     color: black;
 }
 
-
-
 .nav-second ul li a:not(#not-arrowed):after{
     content: " \02C5";
 }
+
+
+
+
+
+
 /* Useful classes */
 
 .wrapper{
