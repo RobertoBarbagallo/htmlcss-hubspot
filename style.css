@@ -70,9 +70,13 @@ a.search{
 /* Second nav */
 
 /* Left */
+.nav-second img{
+   padding-top: 7px;
+    vertical-align: middle;
+}
 
 
-/* RIght */
+/* Right */
 
 .nav-second{
     width: 100%;
@@ -97,6 +101,38 @@ a.search{
     content: "  \02C5";
 }
 
+/* jumbotron */
+
+.jumbotron{
+    position: relative;
+    height: 700px;
+    background-image: url(hubspot-img/jumbotron.png);
+    background-size: contain;
+}
+
+
+.jumbotron .wrapper .column-3 > *, p:not(.jumbotron-btn){
+    padding-top: 20px;
+}
+
+.jumbotron-btn{
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
+
+.green-bar{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-color: #AFEBE4;
+}
+
+
+
+
+/* Big grey section */
 
 
 
@@ -107,6 +143,7 @@ a.search{
 .wrapper{
     width: 1024px;
     margin: auto;
+    height: 100%;
    
 }
 
@@ -129,4 +166,20 @@ button{
     border: none;
     color: white;
 }
+
+
+
+.column-3{
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+  
+}
+
+.container-vert-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
