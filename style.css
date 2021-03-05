@@ -1,5 +1,4 @@
 /* Reset */
-
 *{
     margin: 0;
     padding: 0;
@@ -8,13 +7,11 @@
 }
 
 /* First nav */
-
 /* Left */
 .nav-first{
     width: 100%;
     background-color: #F4F9FD;
     border-bottom: 1px solid #5F6F7C;
-
 }
 
 #nav-language{
@@ -23,7 +20,6 @@
     padding-right: 20px;
     border-right: 1px solid #5F6F7C;
     color: #5F6F7C;
-
 }
 
 #contact{
@@ -39,15 +35,13 @@
 }
 
 /* Right */
-
 .f-right{
     padding: 15px;
 }
 
 a.search{
     color: #5F6F7C;
-    text-decoration: none
-    
+    text-decoration: none    
 }
 
 
@@ -68,16 +62,13 @@ a.search{
 
 
 /* Second nav */
-
 /* Left */
 .nav-second img{
-   padding-top: 7px;
+    padding-top: 7px;
     vertical-align: middle;
 }
 
-
 /* Right */
-
 .nav-second{
     width: 100%;
     background-color: white;
@@ -101,15 +92,13 @@ a.search{
     content: "  \02C5";
 }
 
-/* jumbotron */
-
+/* Jumbotron */
 .jumbotron{
     position: relative;
     height: 700px;
     background-image: url(hubspot-img/jumbotron.png);
     background-size: contain;
 }
-
 
 .jumbotron .wrapper .column-3 > *, p:not(.jumbotron-btn){
     padding-top: 20px;
@@ -129,11 +118,7 @@ a.search{
     background-color: #AFEBE4;
 }
 
-
-
-
 /* Big grey section */
-
 #cube{
     width: 250px;
     object-fit: contain;
@@ -182,7 +167,6 @@ a.search{
 }
 
 /* Small white box section */
-
 .white-box-small{
     width: calc(100% - 10px);
     background-color: white;
@@ -192,7 +176,6 @@ a.search{
 .middle-white-box{
     margin: auto;
 }
-
 
 .left-white-box{
     margin-right: 10px;
@@ -223,7 +206,6 @@ a.search{
     margin-bottom: 40px;
 }
 
-
 .white-box-hr{
     width: 75%;
     margin: auto;
@@ -246,10 +228,7 @@ a.search{
     transform: translateX(-50%);
 }
 
-
 /* Green section */
-
-
 .green-gradient{
     background: linear-gradient(90deg, rgba(0,165,188,1) 35%, rgba(2,185,169,1) 100%);
     padding-top: 40px;
@@ -268,15 +247,12 @@ a.search{
 }
 
 .nasty-table{
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;    
 }
 
 .nasty-raw{
     width: 100%;
     height: 50%;
-
 }
 
 .nasty-cell{
@@ -298,7 +274,6 @@ a.search{
 .second-raw{
     border-right: 1px solid white;
 }
-
 
 .nasty-cell img{
     height: 30px;
@@ -327,9 +302,7 @@ a.search{
     font-size: 30px;
 }
 
-
 /* White setion */
-
 .white-section{
     padding-bottom: 60px;
 }
@@ -338,10 +311,8 @@ a.search{
     width: 100%;   
 }
 
-
 .bottom-raw{
-    width: 100%;
-   
+    width: 100%;   
 }
 
 .top-left{
@@ -359,13 +330,11 @@ a.search{
 
 .top-right{
     padding: 40px 60px;
-
 }
 
 .hardtable{
     width: 100%;
     height: 100%;
-    
 }
 
 .hardtable-raw{
@@ -378,6 +347,7 @@ a.search{
     height: 100%;
     float: left;
 }
+
 .hard-table-cell img{
     height: 20px;
     width: 80%;
@@ -412,15 +382,12 @@ footer .column-25 >h4, footer .column-25 >p{
     width: 60%;
     margin: auto;
     text-align: center;
-
 }
 
 footer hr{
     border: 1px solid white;
     margin: 20px 0px;
-
 }
-
 
 .footer-lang > span{
     padding-right: 20px;
@@ -442,9 +409,10 @@ footer .column-35 > img{
 .end > a{
     text-decoration: none;
     color: white;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
+
+
 /* Useful classes */
 
 .wrapper{
@@ -473,7 +441,11 @@ button{
     color: white;
 }
 
-
+.column-25{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
 
 .column-3{
     width: calc(100% / 3);
@@ -487,20 +459,14 @@ button{
     float: left;
 }
 
-.column-65{
-    width: 65%;
-    height: 100%;
-    float: left;
-}
-
 .column-50{
     width: 50%;
     height: 100%;
     float: left;
 }
 
-.column-25{
-    width: 25%;
+.column-65{
+    width: 65%;
     height: 100%;
     float: left;
 }
@@ -511,26 +477,21 @@ button{
     transform: translateY(-50%);
 }
 
-
 .grey-section{
     background-color: #F4F9FC;
     height: 100%
 }
 
-
 .width-250{
     width: 250px;
     margin: auto;
-
 }
 
 .container-orizz-align{
-    
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
-
 
 .white-box-big{
     margin: 80px 0px;
@@ -572,8 +533,6 @@ button{
     padding: 18px 0px;
 
 }
-
-
 
 .fa {
     padding: 15px;
