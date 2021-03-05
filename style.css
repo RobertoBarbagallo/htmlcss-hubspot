@@ -398,6 +398,53 @@ a.search{
     margin-top: 30px;
 }
 
+/* Footer */
+footer{
+    background-color: #5F6F7C;
+    padding-top: 30px;
+}
+
+footer .column-25 >h4, footer .column-25 >p{
+    color: white;
+}
+
+.footer-lang{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+
+footer hr{
+    border: 1px solid white;
+    margin: 20px 0px;
+
+}
+
+
+.footer-lang > span{
+    padding-right: 20px;
+    color: white;
+}
+
+footer .column-35 > img{
+    height: 30px;
+    object-fit: contain;
+}
+
+.end{
+    margin-top: 20px;
+    width: 30%;
+    position: relative;
+    left: 70%;
+}    
+
+.end > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+}
 /* Useful classes */
 
 .wrapper{
@@ -448,6 +495,12 @@ button{
 
 .column-50{
     width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.column-25{
+    width: 25%;
     height: 100%;
     float: left;
 }
@@ -513,8 +566,46 @@ button{
     margin-top: 50px;
 }
 
+.contact-btn{
+    width: 75%;
+    margin-top: 20px;
+    padding: 18px 0px;
+
+}
 
 
 
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
 
+  .fa-twitter {
+
+    color: white;
+  }
+  
+  .fa-youtube {
+
+    color: white;
+  }
+  .fa-linkedin {
+
+    color: white;
+  }
+  
