@@ -154,11 +154,13 @@ a.search{
 }
 .crm-left img{
     height: 200px;
+    margin-bottom: 40px;
+    
 }
 .crm-left button{
     width: 100%;
     padding: 20px 0px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .crm-right{
@@ -168,7 +170,7 @@ a.search{
 
 
 .crm-right-bottom{
-    padding: 30px 0px 0px 20px;
+    padding: 80px 0px 0px 20px;
  
 }
 
@@ -184,7 +186,7 @@ a.search{
 .white-box-small{
     width: calc(100% - 10px);
     background-color: white;
-    padding-bottom: 40px;
+    padding: 25px;
 }
 
 .middle-white-box{
@@ -201,7 +203,7 @@ a.search{
 }
 
 .white-box-img{
-    height: 200px;
+    height: 150px;
     margin-top: 40px;
     margin-bottom: 40px;
     object-fit: contain;
@@ -248,8 +250,82 @@ a.search{
 /* Green section */
 
 
+.green-gradient{
+    background: linear-gradient(90deg, rgba(0,165,188,1) 35%, rgba(2,185,169,1) 100%);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.green-gradient h1{
+    font-size: 30px;
+}
+
+.green-gradient h1, .green-gradient p{ 
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.nasty-table{
+    margin-top: 50px;
+    
+    
+}
+
+.nasty-raw{
+    width: 100%;
+    height: 50%;
+
+}
+
+.nasty-cell{
+    padding: 40px 0px;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.first-raw{
+    border-bottom: 1px solid White;
+    border-right: 1px solid white;
+}
+
+#first-raw-last{
+    border-bottom: 1px solid white;  
+}
+
+.second-raw{
+    border-right: 1px solid white;
+}
 
 
+.nasty-cell img{
+    height: 30px;
+    object-fit: contain;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 30px 0px;
+    display: block;
+}
+
+.bigtext{
+    font-size: 80px;
+    color: white;
+    line-height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.nasty-cell span{
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+}
 
 
 
