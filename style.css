@@ -328,8 +328,75 @@ a.search{
 }
 
 
+/* White setion */
+
+.white-section{
+    padding-bottom: 60px;
+}
+
+.top-raw{
+    width: 100%;   
+}
 
 
+.bottom-raw{
+    width: 100%;
+   
+}
+
+.top-left{
+    padding: 40px 0px 60px 60px;
+}
+
+.top-left .numbers{
+  width: 60%;
+}
+
+#num{
+    font-size: 80px;
+    text-align: center;
+}
+
+.top-right{
+    padding: 40px 60px;
+
+}
+
+.hardtable{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hardtable-raw{
+    height: 50%;
+    width: 100%;
+}
+
+.hard-table-cell{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.hard-table-cell img{
+    height: 20px;
+    width: 80%;
+    object-fit: contain;
+    object-position: center;
+    margin: 20px 10%;
+}
+
+.right-col> *{
+    margin-top: 30px;
+}
+
+.column-50 img{
+    height: 300px;
+    width: 70%;
+    object-fit: contain;
+    margin-left: 30%;
+    margin-top: 30px;
+}
 
 /* Useful classes */
 
@@ -379,6 +446,12 @@ button{
     float: left;
 }
 
+.column-50{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
 .container-vert-align{
     position: relative;
     top: 50%;
@@ -390,8 +463,6 @@ button{
     background-color: #F4F9FC;
     height: 100%
 }
-
-
 
 
 .width-250{
