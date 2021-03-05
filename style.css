@@ -98,6 +98,12 @@ a.search{
     height: 700px;
     background-image: url(hubspot-img/jumbotron.png);
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .container{
+    margin-top: 180px;
+    min-height:  70%;
 }
 
 .jumbotron .wrapper .column-3 > *, p:not(.jumbotron-btn){
@@ -398,6 +404,10 @@ footer .column-35 > img{
     height: 30px;
     object-fit: contain;
 }
+footer .column-35 > p{
+    color: white;
+    margin-bottom: 20px;
+}
 
 .end{
     margin-top: 20px;
@@ -411,6 +421,7 @@ footer .column-35 > img{
     color: white;
     margin-right: 10px;    
 }
+
 
 
 /* Useful classes */
