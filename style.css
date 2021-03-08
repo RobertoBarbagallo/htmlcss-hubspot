@@ -15,7 +15,6 @@
 }
 
 #nav-language{
-    display: inline-block;
     margin: 20px 0px;
     padding-right: 20px;
     border-right: 1px solid #5F6F7C;
@@ -26,12 +25,12 @@
     text-decoration: none;
     padding-left: 20px;
     color: #5F6F7C;
-    display: inline-block
 }
 
 #nav-language, #contact{
     vertical-align: middle;
     font-size: 20px;
+    display: inline-block;
 }
 
 /* Right */
@@ -41,7 +40,7 @@
 
 a.search{
     color: #5F6F7C;
-    text-decoration: none    
+    text-decoration: none;    
 }
 
 
@@ -64,7 +63,7 @@ a.search{
 /* Second nav */
 /* Left */
 .nav-second img{
-    padding-top: 7px;
+    margin-top: 20px;
     vertical-align: middle;
 }
 
@@ -88,9 +87,6 @@ a.search{
     color: black;
 }
 
-.nav-second ul li a:not(#not-arrowed):after{
-    content: "  \02C5";
-}
 
 /* Jumbotron */
 .jumbotron{
@@ -104,6 +100,7 @@ a.search{
 .jumbotron .container{
     margin-top: 180px;
     min-height:  70%;
+    position: relative;
 }
 
 .jumbotron .wrapper .column-3 > *, p:not(.jumbotron-btn){
@@ -165,7 +162,7 @@ a.search{
  
 }
 
-.crm-right-bottom >p{
+.crm-right-bottom > p{
     text-transform: uppercase;
     font-weight: bold;
     text-align: middle;
@@ -551,31 +548,12 @@ button{
     width: 20px;
     text-align: center;
     text-decoration: none;
+    color: white;
+
   }
 
   .fa:hover {
     opacity: 0.7;
   }
   
-  .fa-facebook {
-    color: white;
-  }
-  
-  .fa-instagram {
-    color: white;
-  }
-
-  .fa-twitter {
-
-    color: white;
-  }
-  
-  .fa-youtube {
-
-    color: white;
-  }
-  .fa-linkedin {
-
-    color: white;
-  }
-  
+ 
