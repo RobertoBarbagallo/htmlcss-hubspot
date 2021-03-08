@@ -88,14 +88,15 @@ a.search{
 }
 
 
+
 /* Jumbotron */
 .jumbotron{
     background-color: #FFF3ED;
     padding: 150px 0px;
     background-image: url(hubspot-img/jumbotron.png);
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0 70px;
+    background-position: 15px -10px;
+
 }
 
 .jumbotron .container{
@@ -114,9 +115,10 @@ a.search{
 }
 
 .green-bar{
-
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     width: 100%;
-    padding: 35px 0;
+    padding: 30px 0;
     background-color: #AFEBE4;
 }
 
@@ -124,11 +126,6 @@ a.search{
 #cube{
     width: 250px;
     object-fit: contain;
-}
-
-.img-container{
-    padding-top: 80px;
-    margin: auto;
 }
 
 .grey-section .wrapper >h1, .grey-section .wrapper 
@@ -486,7 +483,9 @@ button{
 
 .grey-section{
     background-color: #F4F9FC;
-    height: 100%
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .width-250{
@@ -541,7 +540,7 @@ button{
 
 }
 
-.fa {
+.fa{
     padding: 15px;
     font-size: 20px;
     width: 20px;
@@ -555,4 +554,7 @@ button{
     opacity: 0.7;
   }
   
- 
+ .fa.black{
+
+    color: #5F6F7C;
+ }
