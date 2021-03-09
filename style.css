@@ -1,4 +1,4 @@
-/* Reset */
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
-/* First nav */
+
+/* HEADER */
+
+/* First Nav */
 /* Left */
 .nav-first{
     width: 100%;
@@ -76,7 +79,7 @@ a.search, #login-btn, #small-btn{
 
 
 
-/* Second nav */
+/* Second Nav */
 .nav-second{
     width: 100%;
     background-color: white;
@@ -111,7 +114,7 @@ a.search, #login-btn, #small-btn{
     color: black;
 }
 
-
+/* MAIN */
 
 /* Jumbotron */
 .jumbotron{
@@ -146,7 +149,7 @@ a.search, #login-btn, #small-btn{
     background-color: #AFEBE4;
 }
 
-/* Big grey section */
+/* Big Grey Section */
 #cube{
     width: 250px;
     object-fit: contain;
@@ -187,7 +190,7 @@ a.search, #login-btn, #small-btn{
     display: inline-block;
 }
 
-/* Small white box section */
+/* Small White Boxes Section */
 .white-box-small{
     width: calc(100% - 10px);
     background-color: white;
@@ -249,7 +252,7 @@ a.search, #login-btn, #small-btn{
     transform: translateX(-50%);
 }
 
-/* Green section */
+/* Green Section */
 .green-gradient{
     background: linear-gradient(90deg, rgba(0,165,188,1) 35%, rgba(2,185,169,1) 100%);
     padding-top: 40px;
@@ -323,16 +326,12 @@ a.search, #login-btn, #small-btn{
     font-size: 30px;
 }
 
-/* White setion */
+/* White Setion */
 .white-section{
     padding-bottom: 60px;
 }
 
-.top-raw{
-    width: 100%;   
-}
-
-.bottom-raw{
+.top-raw, .bottom-raw{
     width: 100%;   
 }
 
@@ -340,7 +339,7 @@ a.search, #login-btn, #small-btn{
     padding: 40px 0px 60px 60px;
 }
 
-.top-left .numbers{
+.top-left{
   width: 60%;
 }
 
@@ -353,10 +352,6 @@ a.search, #login-btn, #small-btn{
     padding: 40px 60px;
 }
 
-.hardtable{
-    width: 100%;
-    height: 100%;
-}
 
 .hardtable-raw{
     height: 50%;
@@ -389,7 +384,7 @@ a.search, #login-btn, #small-btn{
     margin-top: 30px;
 }
 
-/* Footer */
+/* FOOTER */
 footer{
     background-color: #5F6F7C;
     padding-top: 30px;
@@ -439,7 +434,7 @@ footer .column-35 > p{
 
 
 
-/* Useful classes */
+/* Useful Classes */
 
 .wrapper{
     width: 1024px;
@@ -455,10 +450,6 @@ footer .column-35 > p{
     content: "";
     display: table;
     clear: both;
-}
-
-.f-right{
-    float: right;
 }
 
 button{
@@ -501,11 +492,6 @@ button{
     float: left;
 }
 
-.container-vert-align{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 .grey-section{
     background-color: #F4F9FC;
@@ -517,12 +503,6 @@ button{
 .width-250{
     width: 250px;
     margin: auto;
-}
-
-.container-orizz-align{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .white-box-big{
