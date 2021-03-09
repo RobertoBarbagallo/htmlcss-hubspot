@@ -12,10 +12,16 @@
     width: 100%;
     background-color: #F4F9FD;
     border-bottom: 1px solid #5F6F7C;
+    padding: 10px 0px;
+}
+
+.nav-first-left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
 }
 
 #nav-language{
-    margin: 20px 0px;
     padding-right: 20px;
     border-right: 1px solid #5F6F7C;
     color: #5F6F7C;
@@ -34,22 +40,26 @@
 }
 
 /* Right */
-.f-right{
-    padding: 15px;
+.nav-first-right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin-right: 0px;
+    margin-left: auto;
 }
+
+.nav-right-container{
+    text-align: right;
+}
+
 
 a.search{
     color: #5F6F7C;
-    text-decoration: none;    
-}
-
-
-.f-right .search, button{
+    text-decoration: none; 
     margin-right: 20px;
-    vertical-align: middle;
 }
 
-#login-btn, .Get-one{
+#login-btn, #small-btn{
     padding: 10px; 
 }
 
@@ -57,24 +67,38 @@ a.search{
     border: 1px solid #FE7759;
     color: #FE7759;
     background-color: transparent;
+    margin-right: 20px;
 }
 
-
-/* Second nav */
-/* Left */
-.nav-second img{
-    margin-top: 20px;
+a.search, #login-btn, #small-btn{
     vertical-align: middle;
 }
 
-/* Right */
+
+
+/* Second nav */
 .nav-second{
     width: 100%;
     background-color: white;
+    padding: 10px 0px;
 }
 
+/* Left */
+.img-logo-container{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Right */
+
+
 .nav-second ul{
-    margin-right: 15px;
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
 }
 
 .nav-second ul li{
@@ -134,7 +158,7 @@ a.search{
 }
 
 .crm-left{
-    padding: 50px 0px 20px 70px;
+    padding: 50px 0px 20px 40px;
 }
 .crm-left img{
     height: 200px;
@@ -148,14 +172,12 @@ a.search{
 }
 
 .crm-right{
-    padding: 50px 0px 0px 20px;
-   
+    padding: 50px 40px 0px 20px;
 }
 
 
 .crm-right-bottom{
     padding: 80px 0px 0px 20px;
- 
 }
 
 .crm-right-bottom > p{
@@ -423,6 +445,10 @@ footer .column-35 > p{
     width: 1024px;
     margin: auto;
     height: 100%;
+}
+
+.nowrap{
+    white-space: nowrap;
 }
 
 .clearfix{
