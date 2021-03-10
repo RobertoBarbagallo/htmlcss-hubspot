@@ -581,7 +581,13 @@ button{
     padding: 18px 0px;
 }
 
-.contact-btn, #login-btn:hover{
+#login-btn:hover{
+    border: none;
+    background-color: #FE7759;
+    color: white;
+}
+
+.contact-btn:hover{
     border: none;
     background-color: #FE7759;
     color: white;
