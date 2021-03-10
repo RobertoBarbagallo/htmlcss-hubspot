@@ -150,6 +150,8 @@ a.search, #login-btn, #small-btn{
 }
 
 /* Big Grey Section */
+    
+
 #cube{
     width: 250px;
     object-fit: contain;
@@ -160,27 +162,44 @@ a.search, #login-btn, #small-btn{
     text-align: center;
 }
 
+.white-box-big{
+    margin: 80px 0px;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 40px;
+    border: 1px solid #c1c8cf;
+    border-radius: 8px;
+}
+
+
 .crm-left{
-    padding: 50px 0px 20px 40px;
+    padding-left: 40px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .crm-left img{
     height: 200px;
     margin-bottom: 40px;
+    margin-top: 20px;
     
 }
 .crm-left button{
     width: 100%;
     padding: 20px 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+
 }
 
 .crm-right{
-    padding: 50px 40px 0px 20px;
+    padding: 80px 40px 0px 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
 .crm-right-bottom{
-    padding: 80px 0px 0px 20px;
+    padding: 20px 0px 0px 20px;
+   
 }
 
 .crm-right-bottom > p{
@@ -188,6 +207,7 @@ a.search, #login-btn, #small-btn{
     font-weight: bold;
     text-align: middle;
     display: inline-block;
+    margin-top: 20px;
 }
 
 /* Small White Boxes Section */
@@ -195,6 +215,8 @@ a.search, #login-btn, #small-btn{
     width: calc(100% - 10px);
     background-color: white;
     padding: 25px;
+    border: 1px solid #c1c8cf;
+    border-radius: 8px;
 }
 
 .middle-white-box{
@@ -505,12 +527,7 @@ button{
     margin: auto;
 }
 
-.white-box-big{
-    margin: 80px 0px;
-    background-color: white;
-    width: 100%;
-    padding-bottom: 40px;
-}
+
 
 .small-hr{
     height: 2px;
@@ -535,8 +552,8 @@ button{
     text-align: center;
     line-height: 18px;
     border-radius: 50%;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin: 10px 10px 0px 20px;
+    
 }
 
 .contact-btn{
