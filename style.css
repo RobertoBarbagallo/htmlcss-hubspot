@@ -36,6 +36,10 @@
     color: #5F6F7C;
 }
 
+#contact:hover{
+    opacity: 0.7;
+}
+
 #nav-language, #contact{
     vertical-align: middle;
     font-size: 20px;
@@ -78,7 +82,6 @@ a.search, #login-btn, #small-btn{
 }
 
 
-
 /* Second Nav */
 .nav-second{
     width: 100%;
@@ -93,10 +96,11 @@ a.search, #login-btn, #small-btn{
     vertical-align: middle;
 }
 
+.img-logo-container img:hover{
+    background-color: #FFF3ED;
+}
 
 /* Right */
-
-
 .nav-second ul{
     width: 80%;
     display: inline-block;
@@ -112,6 +116,11 @@ a.search, #login-btn, #small-btn{
 .nav-second ul li a{
     text-decoration: none;
     color: black;
+}
+
+
+.nav-second ul li a:hover{
+    opacity: 0.7;
 }
 
 /* MAIN */
@@ -150,8 +159,6 @@ a.search, #login-btn, #small-btn{
 }
 
 /* Big Grey Section */
-    
-
 #cube{
     width: 250px;
     object-fit: contain;
@@ -163,7 +170,8 @@ a.search, #login-btn, #small-btn{
 }
 
 .white-box-big{
-    margin: 80px 0px;
+    margin-top: 80px;
+    margin-bottom: 20px;
     background-color: white;
     width: 100%;
     padding-bottom: 40px;
@@ -171,23 +179,22 @@ a.search, #login-btn, #small-btn{
     border-radius: 8px;
 }
 
-
 .crm-left{
     padding-left: 40px;
     display: inline-block;
     vertical-align: middle;
 }
+
 .crm-left img{
     height: 200px;
     margin-bottom: 40px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
+
 .crm-left button{
     width: 100%;
     padding: 20px 0px;
     margin-bottom: 0px;
-
 }
 
 .crm-right{
@@ -196,10 +203,8 @@ a.search, #login-btn, #small-btn{
     vertical-align: middle;
 }
 
-
 .crm-right-bottom{
-    padding: 20px 0px 0px 20px;
-   
+    padding: 20px 0px 0px 20px; 
 }
 
 .crm-right-bottom > p{
@@ -294,8 +299,7 @@ a.search, #login-btn, #small-btn{
 
 
 .nasty-table{
-    margin-top: 50px; 
-    
+    margin-top: 50px;   
 }
 
 .nasty-raw{
@@ -339,8 +343,6 @@ a.search, #login-btn, #small-btn{
     vertical-align: middle;
     width: 100%;;
     text-align: center;
-    
-
 }
 
 .nasty-cell span{
@@ -428,14 +430,24 @@ footer hr{
     margin: 20px 0px;
 }
 
-.footer-lang > span{
+.footer-lang > a{
     padding-right: 20px;
     color: white;
+    text-decoration: none;
 }
+
+.footer-lang > a:hover{
+    opacity: 0.7;
+}
+
 
 footer .column-35 > img{
     height: 30px;
     object-fit: contain;
+}
+
+footer .column-35 > img:hover{
+    background-color: #FE7759;
 }
 footer .column-35 > p{
     color: white;
@@ -483,6 +495,12 @@ button{
     background-color: #FE7759;
     border: none;
     color: white;
+}
+
+.orange-btn:hover{
+    background-color: transparent;
+    color:  #FE7759;
+    border: 1px solid  #FE7759;
 }
 
 .column-25{
@@ -561,7 +579,12 @@ button{
     width: 75%;
     margin-top: 20px;
     padding: 18px 0px;
+}
 
+.contact-btn, #login-btn:hover{
+    border: none;
+    background-color: #FE7759;
+    color: white;
 }
 
 .fa{
@@ -574,11 +597,10 @@ button{
 
   }
 
-  .fa:hover {
+  .fa:hover{
     opacity: 0.7;
   }
   
  .fa.black{
-
     color: #5F6F7C;
  }
