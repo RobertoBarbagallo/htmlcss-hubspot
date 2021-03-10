@@ -288,12 +288,14 @@ a.search, #login-btn, #small-btn{
 .green-gradient h1, .green-gradient p{ 
     color: white;
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
+
 .nasty-table{
-    margin-top: 50px;    
+    margin-top: 50px; 
+    
 }
 
 .nasty-raw{
@@ -302,7 +304,7 @@ a.search, #login-btn, #small-btn{
 }
 
 .nasty-cell{
-    padding: 40px 0px;
+    padding: 10px 0px;
     float: left;
     width: 25%;
     height: 100%;
@@ -322,24 +324,23 @@ a.search, #login-btn, #small-btn{
 }
 
 .nasty-cell img{
-    height: 30px;
+    height: 40px;
     object-fit: contain;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 30px 0px;
+    margin: auto;
     display: block;
 }
 
 .bigtext{
+    margin-top: 30px;
     font-size: 80px;
     color: white;
     line-height: 80px;
     display: inline-block;
     vertical-align: middle;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); 
+    width: 100%;;
+    text-align: center;
+    
+
 }
 
 .nasty-cell span{
@@ -468,7 +469,7 @@ footer .column-35 > p{
     white-space: nowrap;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
